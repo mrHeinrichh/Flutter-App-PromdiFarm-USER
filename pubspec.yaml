@@ -1,0 +1,76 @@
+name: promdifarm_app
+description: An app for monitoring riders deliveries.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  cupertino_icons: ^1.0.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.0.1
+  go_router: ^2.0.0
+  http: ^0.13.3
+  fluttertoast: ^8.0.8
+  google_maps_flutter: ^2.1.1
+  flutter_polyline_points: ^1.0.0
+  location: ^4.2.0
+  shared_preferences: ^2.0.13
+  get_it: ^7.2.0
+  dartz: ^0.10.1
+  equatable: ^2.0.3
+  flutter_dotenv: ^5.0.2
+  maps_toolkit: ^2.0.0
+  timelines: ^0.1.0
+  timeline_tile: ^2.0.0
+  url_launcher: ^6.0.20
+  line_awesome_flutter: ^2.0.0
+  image_picker: ^0.8.5
+  device_info_plus: ^3.2.3
+  fk_user_agent: ^2.1.0
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/logo.png
+    - assets/map_style.txt
+    - assets/ca/lets-encrypt-r3.pem
+    - .env
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/Roboto/Roboto-BlackItalic.ttf
+          style: italic
+          weight: 900
+        - asset: fonts/Roboto/Roboto-Black.ttf
+          weight: 900
+        - asset: fonts/Roboto/Roboto-Bold.ttf
+          weight: 700
+        - asset: fonts/Roboto/Roboto-BoldItalic.ttf
+          weight: 700
+        - asset: fonts/Roboto/Roboto-Medium.ttf
+          weight: 500
+        - asset: fonts/Roboto/Roboto-MediumItalic.ttf
+          weight: 500
+        - asset: fonts/Roboto/Roboto-Regular.ttf
+          weight: 400
+        - asset: fonts/Roboto/Roboto-Italic.ttf
+          style: italic
+          weight: 400
+        - asset: fonts/Roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: fonts/Roboto/Roboto-LightItalic.ttf
+          weight: 300
+        - asset: fonts/Roboto/Roboto-Thin.ttf
+          weight: 100
+        - asset: fonts/Roboto/Roboto-ThinItalic.ttf
+          weight: 100

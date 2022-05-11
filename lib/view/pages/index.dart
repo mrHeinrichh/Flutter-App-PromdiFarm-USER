@@ -1,0 +1,14 @@
+export 'deliveries.page.dart';
+export 'forget_password.page.dart';
+export 'drawer/history.page.dart';
+export 'login.page.dart';
+export 'map.page.dart';
+export 'home.page.dart';
+export 'drawer/wallet.page.dart';
+export 'drawer/feedback.page.dart';
+export 'drawer/help_center.page.dart';
+export 'drawer/invite_friends.page.dart';
+export 'drawer/password.page.dart';
+export 'drawer/profile.page.dart';
+export 'drawer/settings.page.dart';
+export 'drawer/rider_deliveries.dart';
