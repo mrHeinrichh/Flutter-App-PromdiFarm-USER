@@ -16,6 +16,8 @@ class MyHttpOverrides extends HttpOverrides {
   }
 }
 
+asdasdasdasdasdasdasdasd
+
 void main() async {
   await dotenv.load(fileName: ".env");
   final env = dotenv.get('ENV', fallback: '');
